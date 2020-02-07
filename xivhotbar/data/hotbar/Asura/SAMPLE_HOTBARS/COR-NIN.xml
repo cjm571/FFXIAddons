@@ -1,0 +1,307 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_0>
+                <target>&lt;me&gt;</target>
+                <type>ja</type>
+                <action>Corsair&apos;s Roll</action>
+                <alias>EXP</alias>
+
+            </slot_0>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Magus&apos;s Roll</action>
+                <alias>M.Def</alias>
+
+            </slot_2>
+            <slot_5>
+                <target>me</target>
+                <type>ja</type>
+                <action>Evoker&apos;s Roll</action>
+                <alias>Refresh</alias>
+
+            </slot_5>
+            <slot_4>
+                <target>me</target>
+                <type>ja</type>
+                <action>Monk&apos;s Roll</action>
+                <alias>TP -</alias>
+
+            </slot_4>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Ninja Roll</action>
+                <alias>Evade</alias>
+
+            </slot_1>
+            <slot_3>
+                <target>me</target>
+                <type>ja</type>
+                <action>Healer&apos;s Roll</action>
+                <alias>Cure</alias>
+
+            </slot_3>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_3>
+                <target>me</target>
+                <type>ja</type>
+                <action>Chaos Roll</action>
+                <alias>Atk[M,R]</alias>
+
+            </slot_3>
+            <slot_6>
+                <target>me</target>
+                <type>ja</type>
+                <action>Rogue&apos;s Roll</action>
+                <alias>CritRate</alias>
+
+            </slot_6>
+            <slot_4>
+                <target>me</target>
+                <type>ja</type>
+                <action>Beast Roll</action>
+                <alias>Atk[R,P]</alias>
+
+            </slot_4>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Drachen Roll</action>
+                <alias>Acc[R,P]</alias>
+
+            </slot_2>
+            <slot_7>
+                <target>me</target>
+                <type>ja</type>
+                <action>Warlock&apos;s Roll</action>
+                <alias>MgkAcc</alias>
+
+            </slot_7>
+            <slot_8>
+                <target>me</target>
+                <type>ja</type>
+                <action>Fighter&apos;s Roll</action>
+                <alias>DblRate</alias>
+
+            </slot_8>
+            <slot_5>
+                <target>me</target>
+                <type>ja</type>
+                <action>Samurai Roll</action>
+                <alias>StoreTP</alias>
+
+            </slot_5>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Hunter&apos;s Roll</action>
+                <alias>Acc[M,R]</alias>
+
+            </slot_1>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Double-Up</action>
+                <alias>Dbl-Up</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_3>
+                <target>me</target>
+                <type>ja</type>
+                <action>Healer&apos;s Roll</action>
+                <alias>Cure</alias>
+
+            </slot_3>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Magus&apos;s Roll</action>
+                <alias>M.Def</alias>
+
+            </slot_2>
+            <slot_5>
+                <target>me</target>
+                <type>ja</type>
+                <action>Evoker&apos;s Roll</action>
+                <alias>Refresh</alias>
+
+            </slot_5>
+            <slot_0>
+                <target>&lt;me&gt;</target>
+                <type>ja</type>
+                <action>Corsair&apos;s Roll</action>
+                <alias>EXP</alias>
+
+            </slot_0>
+            <slot_4>
+                <target>me</target>
+                <type>ja</type>
+                <action>Monk&apos;s Roll</action>
+                <alias>TP -</alias>
+
+            </slot_4>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Ninja Roll</action>
+                <alias>Evade</alias>
+
+            </slot_1>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_7>
+                <target>me</target>
+                <type>ja</type>
+                <action>Warlock&apos;s Roll</action>
+                <alias>MgkAcc</alias>
+
+            </slot_7>
+            <slot_6>
+                <target>me</target>
+                <type>ja</type>
+                <action>Rogue&apos;s Roll</action>
+                <alias>CritRate</alias>
+
+            </slot_6>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Hunter&apos;s Roll</action>
+                <alias>Acc[M,R]</alias>
+
+            </slot_1>
+            <slot_4>
+                <target>me</target>
+                <type>ja</type>
+                <action>Beast Roll</action>
+                <alias>Atk[R,P]</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>me</target>
+                <type>ja</type>
+                <action>Samurai Roll</action>
+                <alias>StoreTP</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>me</target>
+                <type>ja</type>
+                <action>Fighter&apos;s Roll</action>
+                <alias>DblRate</alias>
+
+            </slot_8>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Drachen Roll</action>
+                <alias>Acc[R,P]</alias>
+
+            </slot_2>
+            <slot_3>
+                <target>me</target>
+                <type>ja</type>
+                <action>Chaos Roll</action>
+                <alias>Atk[M,R]</alias>
+
+            </slot_3>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_2>
+                <target>t</target>
+                <type>ja</type>
+                <action>Wind Shot</action>
+                <alias>Wind</alias>
+
+            </slot_2>
+            <slot_7>
+                <target>t</target>
+                <type>ja</type>
+                <action>Light Shot</action>
+                <alias>Light</alias>
+
+            </slot_7>
+            <slot_6>
+                <target>t</target>
+                <type>ja</type>
+                <action>Thunder Shot</action>
+                <alias>Thunder</alias>
+
+            </slot_6>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Double-Up</action>
+                <alias>Dbl-Up</alias>
+
+            </slot_0>
+            <slot_4>
+                <target>t</target>
+                <type>ja</type>
+                <action>Fire Shot</action>
+                <alias>Fire</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ja</type>
+                <action>Ice Shot</action>
+                <alias>Ice</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>t</target>
+                <type>ja</type>
+                <action>Dark Shot</action>
+                <alias>Dark</alias>
+
+            </slot_8>
+            <slot_1>
+                <target>t</target>
+                <type>ja</type>
+                <action>Earth Shot</action>
+                <alias>Earth</alias>
+
+            </slot_1>
+            <slot_3>
+                <target>t</target>
+                <type>ja</type>
+                <action>Water Shot</action>
+                <alias>Water</alias>
+
+            </slot_3>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

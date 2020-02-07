@@ -26,7 +26,6 @@
         SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ]]
 
-
 local ui = {}
 
 local text_setup = {
@@ -49,6 +48,11 @@ ui.tp_bar = images.new(images_setup)
 ui.hp_text = texts.new(text_setup)
 ui.mp_text = texts.new(text_setup)
 ui.tp_text = texts.new(text_setup)
+
+-- START CJM
+ui.is_hidden = true
+-- END CJM
+
 
 -- setup images
 function setup_image(image, path)
@@ -88,8 +92,8 @@ end
 
 -- position the images and text
 function ui:position(theme_options)
-    local x = windower.get_windower_settings().x_res / 2 - (theme_options.total_width / 2) + theme_options.offset_x
-    local y = windower.get_windower_settings().y_res - 60 + theme_options.offset_y
+    local x = windower.get_windower_settings().ui_x_res / 2 - (theme_options.total_width / 2) + theme_options.offset_x
+    local y = windower.get_windower_settings().ui_y_res - 60 + theme_options.offset_y
 
     self.background:pos(x, y)
 
@@ -114,6 +118,10 @@ function ui:hide()
     self.mp_text:hide()
     self.tp_bar:hide()
     self.tp_text:hide()
+
+    -- START CJM
+    ui.is_hidden = true
+    -- END CJM
 end
 
 -- show ui
@@ -125,6 +133,10 @@ function ui:show()
     self.mp_text:show()
     self.tp_bar:show()
     self.tp_text:show()
+
+    -- START CJM
+    ui.is_hidden = false
+    -- END CJM
 end
 
 return ui

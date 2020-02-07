@@ -168,7 +168,7 @@ function ui:load(theme_options)
         for i=1,10,1 do
             local slot_pos_x = self:get_slot_x(h, i)
             local slot_pos_y = self:get_slot_y(h, i)
-            local right_slot_pos_x = slot_pos_x - windower.get_windower_settings().x_res + 16
+            local right_slot_pos_x = slot_pos_x - windower.get_windower_settings().ui_x_res + 16
 
             self.hotbars[h].slot_background[i] = images.new(images_setup)
             self.hotbars[h].slot_icon[i] = images.new(images_setup)
@@ -230,8 +230,8 @@ end
 -- setup positions and dimensions for ui
 function ui:setup_metrics(theme_options)
     self.hotbar_width = (400 + theme_options.slot_spacing * 9)
-    self.pos_x = (windower.get_windower_settings().x_res / 2) - (self.hotbar_width / 2) + theme_options.offset_x
-    self.pos_y = (windower.get_windower_settings().y_res - 120) + theme_options.offset_y
+    self.pos_x = (windower.get_windower_settings().ui_x_res / 2) - (self.hotbar_width / 2) + theme_options.offset_x
+    self.pos_y = (windower.get_windower_settings().ui_y_res - 120) + theme_options.offset_y
 
     self.slot_spacing = theme_options.slot_spacing
 
@@ -392,10 +392,16 @@ function ui:load_action(hotbar, slot, action, player_vitals)
         self.hotbars[hotbar].slot_icon[slot]:pos(self:get_slot_x(hotbar, slot), self:get_slot_y(hotbar, slot))
     end
 
-    -- if action is custom
+    -- if action has a custom icon
     if action.icon ~= nil then
         self.hotbars[hotbar].slot_background[slot]:alpha(200)
-        self.hotbars[hotbar].slot_icon[slot]:pos(self:get_slot_x(hotbar, slot), self:get_slot_y(hotbar, slot))
+        --START CJM
+        if action.type == 'ct' then
+            self.hotbars[hotbar].slot_icon[slot]:pos(self:get_slot_x(hotbar, slot), self:get_slot_y(hotbar, slot))
+        else
+            self.hotbars[hotbar].slot_icon[slot]:pos(self:get_slot_x(hotbar, slot) + 4, self:get_slot_y(hotbar, slot) + 4) -- temporary fix for 32 x 32 icons
+        end
+        --END CJM
         self.hotbars[hotbar].slot_icon[slot]:path(windower.addon_path .. '/images/icons/custom/' .. action.icon .. '.png')
         self.hotbars[hotbar].slot_icon[slot]:show()
     end

@@ -1,0 +1,263 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_1>
+                <target>me</target>
+                <type>ma</type>
+                <action>Metallic Body</action>
+                <alias>Stoneskin</alias>
+
+            </slot_1>
+            <slot_0>
+                <type>ja</type>
+                <action>Azure Lore</action>
+                <alias>Azure Lore</alias>
+
+            </slot_0>
+            <slot_2>
+                <target>me</target>
+                <type>ma</type>
+                <action>Utsusemi: Ichi</action>
+                <alias>Utsu: Ichi</alias>
+
+            </slot_2>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Mysterious Light</action>
+                <alias>AoE Wind</alias>
+
+            </slot_3>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Burst Affinity</action>
+                <alias>Burst</alias>
+
+            </slot_9>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Sound Blast</action>
+                <alias>AoE -Int</alias>
+
+            </slot_2>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Poison Breath</action>
+                <alias>Poison</alias>
+
+            </slot_4>
+            <slot_8>
+                <target>me</target>
+                <type>ma</type>
+                <action>Tonko: Ichi</action>
+                <alias>Tonko: Ichi</alias>
+
+            </slot_8>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Chain Affinity</action>
+                <alias>Chain</alias>
+
+            </slot_0>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Battle Dance</action>
+                <alias>AoE -Dex</alias>
+
+            </slot_1>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>MP Drainkiss</action>
+                <alias>. Aspir</alias>
+
+            </slot_4>
+            <slot_9>
+                <target>st</target>
+                <type>ma</type>
+                <action>Chaotic Eye</action>
+                <alias>Silence</alias>
+
+            </slot_9>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Soporific</action>
+                <alias>Sleep</alias>
+
+            </slot_8>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Cursed Sphere</action>
+                <alias>AoE Water</alias>
+
+            </slot_3>
+            <slot_0>
+                <target>t</target>
+                <type>ma</type>
+                <action>Head Butt</action>
+                <alias>Stun</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_2>
+                <target>me</target>
+                <type>ma</type>
+                <action>Utsusemi: Ichi</action>
+                <alias>Utsu: Ichi</alias>
+
+            </slot_2>
+            <slot_1>
+                <target>me</target>
+                <type>ma</type>
+                <action>Metallic Body</action>
+                <alias>Stoneskin</alias>
+
+            </slot_1>
+            <slot_0>
+                <type>ja</type>
+                <action>Azure Lore</action>
+                <alias>Azure Lore</alias>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Chain Affinity</action>
+                <alias>Chain</alias>
+
+            </slot_0>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Poison Breath</action>
+                <alias>Poison</alias>
+
+            </slot_4>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Burst Affinity</action>
+                <alias>Burst</alias>
+
+            </slot_9>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Sound Blast</action>
+                <alias>AoE -Int</alias>
+
+            </slot_2>
+            <slot_8>
+                <target>me</target>
+                <type>ma</type>
+                <action>Tonko: Ichi</action>
+                <alias>Tonko: Ichi</alias>
+
+            </slot_8>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Mysterious Light</action>
+                <alias>AoE Wind</alias>
+
+            </slot_3>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Battle Dance</action>
+                <alias>AoE -Dex</alias>
+
+            </slot_1>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Cursed Sphere</action>
+                <alias>AoE Water</alias>
+
+            </slot_3>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Bludgeon</action>
+                <alias>Bludgeon</alias>
+
+            </slot_1>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>MP Drainkiss</action>
+                <alias>. Aspir</alias>
+
+            </slot_4>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Uppercut</action>
+                <alias>Uppercut</alias>
+
+            </slot_2>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Soporific</action>
+                <alias>Sleep</alias>
+
+            </slot_8>
+            <slot_9>
+                <target>st</target>
+                <type>ma</type>
+                <action>Chaotic Eye</action>
+                <alias>Silence</alias>
+
+            </slot_9>
+            <slot_0>
+                <target>t</target>
+                <type>ma</type>
+                <action>Head Butt</action>
+                <alias>Stun</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

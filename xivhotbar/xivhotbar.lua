@@ -328,51 +328,51 @@ windower.register_event('addon command', function(command, ...)
 end)
 
 -- ON KEY
-windower.register_event('keyboard', function(dik, flags, blocked)
+windower.register_event('keyboard', function(key, pressed, flags, blocked)
     if xivhotbar.ready == false or windower.ffxi.get_info().chat_open then
         return
     end
 
     if xivhotbar.hide_hotbars then
+        -- START CJM
+        if pressed == true and key == keyboard.scroll_lock then
+            ui:show(player.hotbar, player.hotbar_settings.active_environment)
+            xivhotbar.hide_hotbars = false
+        end
+        -- END CJM
         return
     end
 
-    -- activate third hotbar
-    if dik == keyboard.ctrl and flags == true and xivhotbar.pressing_combo_key_2 == false then
-        xivhotbar.pressing_combo_key_2 = true
-        change_active_hotbar(3)
-    end
-
-    if dik == keyboard.ctrl and flags == false and xivhotbar.pressing_combo_key_2 == true then
-        xivhotbar.pressing_combo_key_2 = false
-        change_active_hotbar(1)
-    end
-
-    -- activate second hotbar
-    if dik == keyboard.shift and flags == true and xivhotbar.pressing_combo_key_1 == false then
-        xivhotbar.pressing_combo_key_1 = true
-        change_active_hotbar(2)
-    end
-
-    if dik == keyboard.shift and flags == false and xivhotbar.pressing_combo_key_1 == true then
-        xivhotbar.pressing_combo_key_1 = false
-        change_active_hotbar(1)
-    end
-
-    if dik == theme_options.controls_battle_mode and flags == true then
+    if key == theme_options.controls_battle_mode and pressed == true then
         toggle_environment()
     end
+    
+    -- START CJM
+    -- Catch scroll lock key and hide ui
+    if pressed == true and key == keyboard.scroll_lock then
+        ui:hide()
+        xivhotbar.hide_hotbars = true
+        return
+    end
 
-    if dik == keyboard.key_1 and flags == true then trigger_action(1) end
-    if dik == keyboard.key_2 and flags == true then trigger_action(2) end
-    if dik == keyboard.key_3 and flags == true then trigger_action(3) end
-    if dik == keyboard.key_4 and flags == true then trigger_action(4) end
-    if dik == keyboard.key_5 and flags == true then trigger_action(5) end
-    if dik == keyboard.key_6 and flags == true then trigger_action(6) end
-    if dik == keyboard.key_7 and flags == true then trigger_action(7) end
-    if dik == keyboard.key_8 and flags == true then trigger_action(8) end
-    if dik == keyboard.key_9 and flags == true then trigger_action(9) end
-    if dik == keyboard.key_0 and flags == true then trigger_action(0) end
+    -- Ignore key ups and keys other than 1-0
+    if pressed == true and (key >= keyboard.key_1 and key <= keyboard.key_0) then
+        -- Set active hotbar according to flags (aka key combo)
+        if flags == 0 then      -- No modifier
+            change_active_hotbar(1)
+        elseif flags == 1 then  -- Shift
+            change_active_hotbar(2)
+        elseif flags == 4 then  -- Ctrl
+            change_active_hotbar(3)
+        elseif flags == 2 then  -- Alt
+            -- Ignore Alt+* combos
+            return      
+        end
+
+        -- Trigger the action based on pressed key
+        trigger_action(key-keyboard.offset)
+    end
+    --END CJM
 end)
 
 -- ON PRERENDER

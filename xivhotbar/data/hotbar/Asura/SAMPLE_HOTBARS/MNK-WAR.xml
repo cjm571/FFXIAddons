@@ -1,0 +1,169 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_0>
+                <type>ja</type>
+                <action>Hundred Fists</action>
+                <target>me</target>
+                <alias>100 Fists</alias>
+                <icon>abilities/00000.02</icon>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_3>
+                <target>me</target>
+                <type>ja</type>
+                <action>Berserk</action>
+                <alias>Berserk</alias>
+
+            </slot_3>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Dodge</action>
+                <alias>Dodge</alias>
+
+            </slot_9>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Chakra</action>
+                <alias>Chakra</alias>
+
+            </slot_0>
+            <slot_8>
+                <target>me</target>
+                <type>ja</type>
+                <action>Counterstance</action>
+                <alias>C.Stance</alias>
+
+            </slot_8>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Focus</action>
+                <alias>Focus</alias>
+
+            </slot_2>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Boost</action>
+                <alias>Boost</alias>
+
+            </slot_1>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+            <slot_0>
+                <target>t</target>
+                <type>ja</type>
+                <action>Chi Blast</action>
+                <alias>Chi Blast</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_0>
+                <type>ja</type>
+                <action>Hundred Fists</action>
+                <target>me</target>
+                <alias>100 Fists</alias>
+                <icon>abilities/00000.02</icon>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_3>
+                <target>me</target>
+                <type>ja</type>
+                <action>Berserk</action>
+                <alias>Berserk</alias>
+
+            </slot_3>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Dodge</action>
+                <alias>Dodge</alias>
+
+            </slot_9>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Chakra</action>
+                <alias>Chakra</alias>
+
+            </slot_0>
+            <slot_8>
+                <target>me</target>
+                <type>ja</type>
+                <action>Counterstance</action>
+                <alias>C.Stance</alias>
+
+            </slot_8>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Focus</action>
+                <alias>Focus</alias>
+
+            </slot_2>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Boost</action>
+                <alias>Boost</alias>
+
+            </slot_1>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+            <slot_0>
+                <target>t</target>
+                <type>ja</type>
+                <action>Chi Blast</action>
+                <alias>Chi Blast</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

@@ -1,0 +1,342 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Water II</action>
+                <alias>Water</alias>
+
+            </slot_2>
+            <slot_7>
+                <target>t</target>
+                <type>ma</type>
+                <action>Poison II</action>
+                <alias>Poison</alias>
+
+            </slot_7>
+            <slot_0>
+                <target>t</target>
+                <type>ma</type>
+                <action>Drain</action>
+                <alias>Drain</alias>
+
+            </slot_0>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Blizzard</action>
+                <alias>Blizzard</alias>
+
+            </slot_6>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Thunder</action>
+                <alias>Thunder</alias>
+
+            </slot_3>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Stone II</action>
+                <alias>Stone</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Aero II</action>
+                <alias>Aero</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Bio II</action>
+                <alias>Bio II</alias>
+
+            </slot_8>
+            <slot_9>
+                <target>t</target>
+                <type>ma</type>
+                <action>Aspir</action>
+                <alias>Aspir</alias>
+
+            </slot_9>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Fire</action>
+                <alias>Fire</alias>
+
+            </slot_1>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-DEX</action>
+                <alias>Abs-Dex</alias>
+
+            </slot_1>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Berserk</action>
+                <alias>Berserk</alias>
+
+            </slot_9>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-STR</action>
+                <alias>Abs-STR</alias>
+
+            </slot_4>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-INT</action>
+                <alias>Abs-INT</alias>
+
+            </slot_2>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-TP</action>
+                <alias>Abs-TP</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>me</target>
+                <type>ja</type>
+                <action>Souleater</action>
+                <alias>Souleater</alias>
+
+            </slot_8>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-AGI</action>
+                <alias>Abs-AGI</alias>
+
+            </slot_3>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Last Resort</action>
+                <alias>Last Resort</alias>
+
+            </slot_0>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+            <slot_8>
+                <target>stnpc</target>
+                <type>ma</type>
+                <action>Bind</action>
+                <alias>Bind</alias>
+
+            </slot_8>
+            <slot_9>
+                <target>stnpc</target>
+                <type>ma</type>
+                <action>Sleep II</action>
+                <alias>Sleep</alias>
+
+            </slot_9>
+            <slot_0>
+                <target>t</target>
+                <type>ja</type>
+                <action>Weapon Bash</action>
+                <alias>Weapon Bash</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Water II</action>
+                <alias>Water</alias>
+
+            </slot_2>
+            <slot_7>
+                <target>t</target>
+                <type>ma</type>
+                <action>Poison II</action>
+                <alias>Poison</alias>
+
+            </slot_7>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Fire II</action>
+                <alias>Fire</alias>
+
+            </slot_1>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Blizzard</action>
+                <alias>Blizzard</alias>
+
+            </slot_6>
+            <slot_9>
+                <target>t</target>
+                <type>ma</type>
+                <action>Aspir</action>
+                <alias>Aspir</alias>
+
+            </slot_9>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Stone II</action>
+                <alias>Stone</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Aero II</action>
+                <alias>Aero</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Bio II</action>
+                <alias>Bio II</alias>
+
+            </slot_8>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Thunder</action>
+                <alias>Thunder</alias>
+
+            </slot_3>
+            <slot_0>
+                <target>t</target>
+                <type>ma</type>
+                <action>Drain II</action>
+                <alias>Drain</alias>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Berserk</action>
+                <alias>Berserk</alias>
+
+            </slot_9>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-DEX</action>
+                <alias>Abs-Dex</alias>
+
+            </slot_1>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-ACC</action>
+                <alias>Abs-ACC</alias>
+
+            </slot_6>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-INT</action>
+                <alias>Abs-INT</alias>
+
+            </slot_2>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-STR</action>
+                <alias>Abs-STR</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-TP</action>
+                <alias>Abs-TP</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>me</target>
+                <type>ja</type>
+                <action>Souleater</action>
+                <alias>Souleater</alias>
+
+            </slot_8>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-AGI</action>
+                <alias>Abs-AGI</alias>
+
+            </slot_3>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Last Resort</action>
+                <alias>Last Resort</alias>
+
+            </slot_0>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_8>
+                <target>stnpc</target>
+                <type>ma</type>
+                <action>Bind</action>
+                <alias>Bind</alias>
+
+            </slot_8>
+            <slot_9>
+                <target>stnpc</target>
+                <type>ma</type>
+                <action>Sleep II</action>
+                <alias>Sleep</alias>
+
+            </slot_9>
+            <slot_0>
+                <target>t</target>
+                <type>ja</type>
+                <action>Weapon Bash</action>
+                <alias>Weapon Bash</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

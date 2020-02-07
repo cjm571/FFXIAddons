@@ -92,17 +92,13 @@ function update_bar(bar, text, width, current, pp, flag)
             local x = old_width
 
             if old_width < new_width then
-                x = old_width + math.ceil(((new_width - old_width) * 0.1))
+                x = old_width + math.ceil((new_width - old_width) * 0.1)
 
-                if x > theme_options.bar_width then
-                    x = theme_options.bar_width
-                end
+                x = math.min(x, theme_options.bar_width)
             elseif old_width > new_width then
-                x = old_width - math.ceil(((old_width - new_width) * 0.1))
+                x = old_width - math.ceil((old_width - new_width) * 0.1)
 
-                if x < 0 then
-                    x = 0
-                end
+                x = math.max(x, 0)
             end
 
             if flag == 1 then
@@ -222,3 +218,21 @@ windower.register_event('status change', function(new_status_id)
         show()
     end
 end)
+
+-- START CJM
+windower.register_event('keyboard', function(key, pressed, flags, blocked)
+    local scroll_lock = 70
+
+    -- If scroll lock pressed when ui is showing, hide it
+    if ui.is_hidden == false and pressed == true and key == scroll_lock then
+        ui:hide()
+        return
+    end
+
+    -- if scroll lock pressed when ui is hidden, show it
+    if ui.is_hidden == true and pressed == true and key == scroll_lock then
+        ui:show()
+        return
+    end
+end)
+-- END CJM

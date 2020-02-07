@@ -1,0 +1,425 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_9>
+                <type>ja</type>
+                <action>Embolden</action>
+                <target>me</target>
+                <alias>Embolden</alias>
+                <icon>abilities/00038</icon>
+
+            </slot_9>
+            <slot_7>
+                <target>me</target>
+                <type>ma</type>
+                <action>Refresh</action>
+                <alias>Refresh</alias>
+
+            </slot_7>
+            <slot_3>
+                <target>me</target>
+                <type>ma</type>
+                <action>Ice Spikes</action>
+                <alias>Ice Spikes</alias>
+
+            </slot_3>
+            <slot_6>
+                <target>me</target>
+                <type>ma</type>
+                <action>Regen III</action>
+                <alias>Regen III</alias>
+
+            </slot_6>
+            <slot_1>
+                <target>me</target>
+                <type>ma</type>
+                <action>Aquaveil</action>
+                <alias>Aquaveil</alias>
+
+            </slot_1>
+            <slot_4>
+                <target>me</target>
+                <type>ma</type>
+                <action>Stoneskin</action>
+                <alias>Stoneskin</alias>
+
+            </slot_4>
+            <slot_5>
+                <type>ma</type>
+                <action>Foil</action>
+                <target>me</target>
+                <alias>Foil</alias>
+                <icon>abilities/00014</icon>
+
+            </slot_5>
+            <slot_8>
+                <target>me</target>
+                <type>ma</type>
+                <action>Phalanx</action>
+                <alias>Phalanx</alias>
+
+            </slot_8>
+            <slot_2>
+                <target>me</target>
+                <type>ma</type>
+                <action>Blink</action>
+                <alias>Blink</alias>
+
+            </slot_2>
+            <slot_0>
+                <type>ja</type>
+                <action>Elemental Sforzo</action>
+                <target>me</target>
+                <alias>Sforzo</alias>
+                <icon>abilities/00031</icon>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_2>
+                <type>ja</type>
+                <action>Gelus</action>
+                <target>me</target>
+                <alias>Gelus</alias>
+                <icon>spells/00149</icon>
+
+            </slot_2>
+            <slot_7>
+                <type>ja</type>
+                <action>Lux</action>
+                <target>me</target>
+                <alias>Lux</alias>
+                <icon>spells/00021</icon>
+
+            </slot_7>
+            <slot_6>
+                <type>ja</type>
+                <action>Unda</action>
+                <target>me</target>
+                <alias>Unda</alias>
+                <icon>spells/00169</icon>
+
+            </slot_6>
+            <slot_0>
+                <type>ja</type>
+                <action>Vivacious Pulse</action>
+                <target>me</target>
+                <alias>Vive Pulse</alias>
+                <icon>abilities/00015</icon>
+
+            </slot_0>
+            <slot_4>
+                <type>ja</type>
+                <action>Tellus</action>
+                <target>me</target>
+                <alias>Tellus</alias>
+                <icon>spells/00159</icon>
+
+            </slot_4>
+            <slot_5>
+                <type>ja</type>
+                <action>Sulpor</action>
+                <target>me</target>
+                <alias>Sulpor</alias>
+                <icon>spells/00164</icon>
+
+            </slot_5>
+            <slot_8>
+                <type>ja</type>
+                <action>Tenebrae</action>
+                <target>me</target>
+                <alias>Tenebrae</alias>
+                <icon>spells/00263</icon>
+
+            </slot_8>
+            <slot_1>
+                <type>ja</type>
+                <action>Ignis</action>
+                <target>me</target>
+                <alias>Ignis</alias>
+                <icon>spells/00144</icon>
+
+            </slot_1>
+            <slot_3>
+                <type>ja</type>
+                <action>Flabra</action>
+                <target>me</target>
+                <alias>Flabra</alias>
+                <icon>spells/00154</icon>
+
+            </slot_3>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_7>
+                <type>ja</type>
+                <action>Vallation</action>
+                <target>me</target>
+                <alias>Vallation</alias>
+                <icon>spells/00048</icon>
+
+            </slot_7>
+            <slot_6>
+                <type>ja</type>
+                <action>Pflug</action>
+                <target>me</target>
+                <alias>Pflug</alias>
+                <icon>spells/00075</icon>
+
+            </slot_6>
+            <slot_0>
+                <target>&lt;t&gt;</target>
+                <type>ja</type>
+                <action>Weapon Bash</action>
+                <alias>Wpn Bash</alias>
+
+            </slot_0>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Flash</action>
+                <alias>Flash</alias>
+
+            </slot_4>
+            <slot_5>
+                <type>ja</type>
+                <action>Valiance</action>
+                <target>me</target>
+                <alias>Valiance</alias>
+                <icon>spells/00130</icon>
+
+            </slot_5>
+            <slot_8>
+                <type>ja</type>
+                <action>Swordplay</action>
+                <target>me</target>
+                <alias>Swordplay</alias>
+                <icon>spells/00901</icon>
+
+            </slot_8>
+            <slot_9>
+                <target>t</target>
+                <type>ma</type>
+                <action>Stun</action>
+                <alias>Stun</alias>
+
+            </slot_9>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_2>
+                <target>me</target>
+                <type>ma</type>
+                <action>Blink</action>
+                <alias>Blink</alias>
+
+            </slot_2>
+            <slot_7>
+                <target>me</target>
+                <type>ma</type>
+                <action>Refresh</action>
+                <alias>Refresh</alias>
+
+            </slot_7>
+            <slot_0>
+                <type>ja</type>
+                <action>Elemental Sforzo</action>
+                <target>me</target>
+                <alias>Sforzo</alias>
+                <icon>abilities/00031</icon>
+
+            </slot_0>
+            <slot_6>
+                <target>me</target>
+                <type>ma</type>
+                <action>Regen III</action>
+                <alias>Regen III</alias>
+
+            </slot_6>
+            <slot_9>
+                <type>ja</type>
+                <action>Embolden</action>
+                <target>me</target>
+                <alias>Embolden</alias>
+                <icon>abilities/00038</icon>
+
+            </slot_9>
+            <slot_4>
+                <target>me</target>
+                <type>ma</type>
+                <action>Stoneskin</action>
+                <alias>Stoneskin</alias>
+
+            </slot_4>
+            <slot_5>
+                <type>ma</type>
+                <action>Foil</action>
+                <target>me</target>
+                <alias>Foil</alias>
+                <icon>abilities/00014</icon>
+
+            </slot_5>
+            <slot_8>
+                <target>me</target>
+                <type>ma</type>
+                <action>Phalanx</action>
+                <alias>Phalanx</alias>
+
+            </slot_8>
+            <slot_1>
+                <target>me</target>
+                <type>ma</type>
+                <action>Aquaveil</action>
+                <alias>Aquaveil</alias>
+
+            </slot_1>
+            <slot_3>
+                <target>me</target>
+                <type>ma</type>
+                <action>Ice Spikes</action>
+                <alias>Ice Spikes</alias>
+
+            </slot_3>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_0>
+                <type>ja</type>
+                <action>Vivacious Pulse</action>
+                <target>me</target>
+                <alias>Vive Pulse</alias>
+                <icon>abilities/00015</icon>
+
+            </slot_0>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-AGI</action>
+                <alias>Abs-AGI</alias>
+
+            </slot_2>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-MND</action>
+                <alias>Abs-MND</alias>
+
+            </slot_4>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-INT</action>
+                <alias>Abs-INT</alias>
+
+            </slot_1>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Absorb-VIT</action>
+                <alias>Abs-VIT</alias>
+
+            </slot_3>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_2>
+                <type>ja</type>
+                <action>Lunge</action>
+                <target>t</target>
+                <alias>Lunge</alias>
+                <icon>abilities/00010</icon>
+
+            </slot_2>
+            <slot_7>
+                <type>ja</type>
+                <action>Vallation</action>
+                <target>me</target>
+                <alias>Vallation</alias>
+                <icon>spells/00048</icon>
+
+            </slot_7>
+            <slot_9>
+                <target>t</target>
+                <type>ma</type>
+                <action>Stun</action>
+                <alias>Stun</alias>
+
+            </slot_9>
+            <slot_6>
+                <type>ja</type>
+                <action>Pflug</action>
+                <target>me</target>
+                <alias>Pflug</alias>
+                <icon>spells/00075</icon>
+
+            </slot_6>
+            <slot_1>
+                <type>ja</type>
+                <action>Swipe</action>
+                <target>t</target>
+                <alias>Swipe</alias>
+                <icon>abilities/00010.1</icon>
+
+            </slot_1>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Flash</action>
+                <alias>Flash</alias>
+
+            </slot_4>
+            <slot_5>
+                <type>ja</type>
+                <action>Valiance</action>
+                <target>me</target>
+                <alias>Valiance</alias>
+                <icon>spells/00130</icon>
+
+            </slot_5>
+            <slot_8>
+                <type>ja</type>
+                <action>Swordplay</action>
+                <target>me</target>
+                <alias>Swordplay</alias>
+                <icon>spells/00901</icon>
+
+            </slot_8>
+            <slot_3>
+                <type>ja</type>
+                <action>Gambit</action>
+                <target>t</target>
+                <alias>Gambit</alias>
+                <icon>abilities/00000.17</icon>
+
+            </slot_3>
+            <slot_0>
+                <target>&lt;t&gt;</target>
+                <type>ja</type>
+                <action>Weapon Bash</action>
+                <alias>Wpn Bash</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

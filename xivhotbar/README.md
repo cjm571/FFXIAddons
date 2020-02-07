@@ -1,19 +1,19 @@
 # xivhotbar - [WIP]
 This addon adds a hotbar to FFXI, akin to those of more modern MMOs, along with recast times and mp/tp costs. It can also trigger custom commands.
 
-![alt text](http://i.imgur.com/RnpVLbZ.png)
+<img src=../images/xivhotbar_fullscreen_sample.png>
 
 You can choose from 3 different styles 'ffxiv', 'ffxi' and 'classic'.
 
-![alt text](http://i.imgur.com/g72PpaG.png)
+<img src=../images/xivhotbar_styles.png>
 
 Or you can mix and match and choose a different style for each component.
 
-![alt text](http://i.imgur.com/8r6m2hq.png)
+<img src=../images/xivhotbar_styles2.png>
 
 The hotbar is also very customizable. You can use custom icons, hide the ability names, recast, elements, mp/tp cost and even empty slots.
 
-![alt text](http://i.imgur.com/ObDnDPG.png)
+<img src=../images/xivhotbar_styles3.png>
 
 ## WIP Version 
 This is a very simple version with a lot of features still missing and A LOT of bugs.

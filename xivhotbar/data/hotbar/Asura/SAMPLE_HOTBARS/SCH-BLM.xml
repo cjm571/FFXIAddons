@@ -1,0 +1,328 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_9>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Raise</action>
+                <alias>Raise</alias>
+
+            </slot_9>
+            <slot_2>
+                <target>me</target>
+                <type>ma</type>
+                <action>Aquaveil</action>
+                <alias>Aquaveil</alias>
+
+            </slot_2>
+            <slot_6>
+                <target>me</target>
+                <type>ma</type>
+                <action>Deodorize</action>
+                <alias>Deodorize</alias>
+
+            </slot_6>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Tabula Rasa</action>
+                <alias>Tabula Rasa</alias>
+
+            </slot_0>
+            <slot_4>
+                <target>me</target>
+                <type>ma</type>
+                <action>Invisible</action>
+                <alias>Invisible</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>me</target>
+                <type>ma</type>
+                <action>Sneak</action>
+                <alias>Sneak</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Reraise</action>
+                <alias>Reraise</alias>
+
+            </slot_8>
+            <slot_1>
+                <target>me</target>
+                <type>ma</type>
+                <action>Blink</action>
+                <alias>Blink</alias>
+
+            </slot_1>
+            <slot_3>
+                <target>me</target>
+                <type>ma</type>
+                <action>Blaze Spikes</action>
+                <alias>Blaze Spikes</alias>
+
+            </slot_3>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_4>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Silena</action>
+                <alias>Silena</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cursna</action>
+                <alias>Cursna</alias>
+
+            </slot_5>
+            <slot_1>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Poisona</action>
+                <alias>Poisona</alias>
+
+            </slot_1>
+            <slot_2>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Paralyna</action>
+                <alias>Paralyna</alias>
+
+            </slot_2>
+            <slot_3>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Blindna</action>
+                <alias>Blindna</alias>
+
+            </slot_3>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_4>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Regen II</action>
+                <alias>Regen II</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Regen</action>
+                <alias>Regen</alias>
+
+            </slot_5>
+            <slot_3>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure</action>
+                <alias>Cure</alias>
+
+            </slot_3>
+            <slot_2>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure II</action>
+                <alias>Cure II</alias>
+
+            </slot_2>
+            <slot_1>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure III</action>
+                <alias>Cure III</alias>
+
+            </slot_1>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Shock</action>
+                <alias>Shock</alias>
+
+            </slot_6>
+            <slot_9>
+                <target>t</target>
+                <type>ma</type>
+                <action>Drain</action>
+                <alias>Drain</alias>
+
+            </slot_9>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Dispel</action>
+                <alias>Dispel</alias>
+
+            </slot_8>
+            <slot_0>
+                <target>t</target>
+                <type>ma</type>
+                <action>Aspir</action>
+                <alias>Aspir</alias>
+
+            </slot_0>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Rasp</action>
+                <alias>Rasp</alias>
+
+            </slot_1>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_9>
+                <target>st</target>
+                <type>ma</type>
+                <action>Bind</action>
+                <alias>Bind</alias>
+
+            </slot_9>
+            <slot_7>
+                <target>t</target>
+                <type>ma</type>
+                <action>Noctohelix</action>
+                <alias>Noctohelix</alias>
+
+            </slot_7>
+            <slot_0>
+                <target>st</target>
+                <type>ma</type>
+                <action>Sleep</action>
+                <alias>Sleep</alias>
+
+            </slot_0>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Ionohelix</action>
+                <alias>Ionohelix</alias>
+
+            </slot_6>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Geohelix</action>
+                <alias>Geohelix</alias>
+
+            </slot_1>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Pyrohelix</action>
+                <alias>Pyrohelix</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Cryohelix</action>
+                <alias>Cryohelix</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Luminohelix</action>
+                <alias>Luminohelix</alias>
+
+            </slot_8>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Hydrohelix</action>
+                <alias>Hydrohelix</alias>
+
+            </slot_2>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Anemohelix</action>
+                <alias>Anemohelix</alias>
+
+            </slot_3>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_9>
+                <target>t</target>
+                <type>ma</type>
+                <action>Blind</action>
+                <alias>Blind</alias>
+
+            </slot_9>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Stone II</action>
+                <alias>Stone II</alias>
+
+            </slot_1>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Thunder</action>
+                <alias>Thunder</alias>
+
+            </slot_6>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Water II</action>
+                <alias>Water II</alias>
+
+            </slot_2>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Fire</action>
+                <alias>Fire</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Blizzard</action>
+                <alias>Blizzard</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>t</target>
+                <type>ma</type>
+                <action>Bio</action>
+                <alias>Bio</alias>
+
+            </slot_8>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Aero II</action>
+                <alias>Aero II</alias>
+
+            </slot_3>
+            <slot_0>
+                <target>t</target>
+                <type>ma</type>
+                <action>Poison</action>
+                <alias>Poison</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

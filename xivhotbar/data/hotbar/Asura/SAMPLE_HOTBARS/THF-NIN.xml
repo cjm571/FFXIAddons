@@ -1,0 +1,288 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Assassin&apos;s Charge</action>
+                <alias>3X Atk</alias>
+
+            </slot_2>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Perfect Dodge</action>
+                <alias>Perfect Dodge</alias>
+
+            </slot_0>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Feint</action>
+                <alias>Feint</alias>
+
+            </slot_1>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Katon: Ichi</action>
+                <alias>Water -</alias>
+
+            </slot_1>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Suiton: Ichi</action>
+                <alias>Thunder -</alias>
+
+            </slot_6>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Huton: Ichi</action>
+                <alias>Ice -</alias>
+
+            </slot_3>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Hyoton: Ichi</action>
+                <alias>Fire -</alias>
+
+            </slot_2>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Raiton: Ichi</action>
+                <alias>Earth -</alias>
+
+            </slot_5>
+            <slot_9>
+                <target>me</target>
+                <type>ma</type>
+                <action>Tonko: Ichi</action>
+                <alias>Invisible</alias>
+
+            </slot_9>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Doton: Ichi</action>
+                <alias>Wind -</alias>
+
+            </slot_4>
+            <slot_0>
+                <target>me</target>
+                <type>ma</type>
+                <action>Utsusemi: Ichi</action>
+                <alias>Utsusemi</alias>
+
+            </slot_0>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Flee</action>
+                <alias>Flee</alias>
+
+            </slot_0>
+            <slot_9>
+                <type>ct</type>
+                <action>range</action>
+                <target>t</target>
+                <alias>Ranged</alias>
+                <icon>fish</icon>
+
+            </slot_9>
+            <slot_7>
+                <target>st</target>
+                <type>ja</type>
+                <action>Accomplice</action>
+                <alias>Accomplice</alias>
+
+            </slot_7>
+            <slot_8>
+                <target>st</target>
+                <type>ja</type>
+                <action>Collaborator</action>
+                <alias>Collaborator</alias>
+
+            </slot_8>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Assassin&apos;s Charge</action>
+                <alias>3X Atk</alias>
+
+            </slot_2>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Perfect Dodge</action>
+                <alias>Perfect Dodge</alias>
+
+            </slot_0>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Feint</action>
+                <alias>Feint</alias>
+
+            </slot_1>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Katon: Ichi</action>
+                <alias>Water -</alias>
+
+            </slot_1>
+            <slot_6>
+                <target>t</target>
+                <type>ma</type>
+                <action>Suiton: Ichi</action>
+                <alias>Thunder -</alias>
+
+            </slot_6>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Huton: Ichi</action>
+                <alias>Ice -</alias>
+
+            </slot_3>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Hyoton: Ichi</action>
+                <alias>Fire -</alias>
+
+            </slot_2>
+            <slot_5>
+                <target>t</target>
+                <type>ma</type>
+                <action>Raiton: Ichi</action>
+                <alias>Earth -</alias>
+
+            </slot_5>
+            <slot_9>
+                <target>me</target>
+                <type>ma</type>
+                <action>Tonko: Ichi</action>
+                <alias>Invisible</alias>
+
+            </slot_9>
+            <slot_4>
+                <target>t</target>
+                <type>ma</type>
+                <action>Doton: Ichi</action>
+                <alias>Wind -</alias>
+
+            </slot_4>
+            <slot_0>
+                <target>me</target>
+                <type>ma</type>
+                <action>Utsusemi: Ichi</action>
+                <alias>Utsusemi</alias>
+
+            </slot_0>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_9>
+                <type>ct</type>
+                <action>range</action>
+                <target>t</target>
+                <alias>Ranged</alias>
+                <icon>fish</icon>
+
+            </slot_9>
+            <slot_7>
+                <target>st</target>
+                <type>ja</type>
+                <action>Accomplice</action>
+                <alias>Accomplice</alias>
+
+            </slot_7>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Sneak Attack</action>
+                <alias>Sneak Attack</alias>
+
+            </slot_1>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Flee</action>
+                <alias>Flee</alias>
+
+            </slot_0>
+            <slot_4>
+                <target>t</target>
+                <type>ja</type>
+                <action>Mug</action>
+                <alias>Mug</alias>
+
+            </slot_4>
+            <slot_5>
+                <target>t</target>
+                <type>ja</type>
+                <action>Despoil</action>
+                <alias>Despoil</alias>
+
+            </slot_5>
+            <slot_8>
+                <target>st</target>
+                <type>ja</type>
+                <action>Collaborator</action>
+                <alias>Collaborator</alias>
+
+            </slot_8>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Trick Attack</action>
+                <alias>Trick Attack</alias>
+
+            </slot_2>
+            <slot_3>
+                <target>t</target>
+                <type>ja</type>
+                <action>Steal</action>
+                <alias>Steal</alias>
+
+            </slot_3>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

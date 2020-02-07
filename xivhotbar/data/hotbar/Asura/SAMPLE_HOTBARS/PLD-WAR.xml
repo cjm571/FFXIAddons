@@ -1,0 +1,265 @@
+<hotbar>
+    <field>
+        <hotbar_3>
+            <slot_4>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure</action>
+                <alias>Cure</alias>
+
+            </slot_4>
+            <slot_1>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure IV</action>
+                <alias>Cure IV</alias>
+
+            </slot_1>
+            <slot_2>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure III</action>
+                <alias>Cure III</alias>
+
+            </slot_2>
+            <slot_3>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure II</action>
+                <alias>Cure II</alias>
+
+            </slot_3>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Invincible</action>
+                <alias>Invincible</alias>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Rampart</action>
+                <alias>Rampart</alias>
+
+            </slot_2>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Holy Circle</action>
+                <alias>Holy Circle</alias>
+
+            </slot_0>
+            <slot_3>
+                <target>me</target>
+                <type>ma</type>
+                <action>Reprisal</action>
+                <alias>Reprisal</alias>
+
+            </slot_3>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Berserk</action>
+                <alias>Berserk</alias>
+
+            </slot_9>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Defender</action>
+                <alias>Defender</alias>
+
+            </slot_1>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_0>
+                <target>stpc</target>
+                <type>ja</type>
+                <action>Cover</action>
+                <alias>Cover</alias>
+
+            </slot_0>
+            <slot_3>
+                <target>stnpc</target>
+                <type>ma</type>
+                <action>Flash</action>
+                <alias>Flash</alias>
+
+            </slot_3>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Sentinel</action>
+                <alias>Sentinel</alias>
+
+            </slot_9>
+            <slot_5>
+                <target>t</target>
+                <type>ja</type>
+                <action>Shield Bash</action>
+                <alias>Sh. Bash</alias>
+
+            </slot_5>
+            <slot_2>
+                <icon>check</icon>
+                <type>ct</type>
+                <alias>Check</alias>
+                <action>check</action>
+
+            </slot_2>
+            <slot_4>
+                <target>stnpc</target>
+                <type>ja</type>
+                <action>Provoke</action>
+                <alias>Provoke</alias>
+
+            </slot_4>
+            <slot_1>
+                <icon>attack</icon>
+                <type>ct</type>
+                <alias>Attack</alias>
+                <action>attack on</action>
+
+            </slot_1>
+
+        </hotbar_1>
+
+    </field>
+    <battle>
+        <hotbar_3>
+            <slot_2>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure III</action>
+                <alias>Cure III</alias>
+
+            </slot_2>
+            <slot_3>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure II</action>
+                <alias>Cure II</alias>
+
+            </slot_3>
+            <slot_1>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure IV</action>
+                <alias>Cure IV</alias>
+
+            </slot_1>
+            <slot_4>
+                <target>stpc</target>
+                <type>ma</type>
+                <action>Cure</action>
+                <alias>Cure</alias>
+
+            </slot_4>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Invincible</action>
+                <alias>Invincible</alias>
+
+            </slot_0>
+
+        </hotbar_3>
+        <hotbar_2>
+            <slot_2>
+                <target>me</target>
+                <type>ja</type>
+                <action>Rampart</action>
+                <alias>Rampart</alias>
+
+            </slot_2>
+            <slot_0>
+                <target>me</target>
+                <type>ja</type>
+                <action>Holy Circle</action>
+                <alias>Holy Circle</alias>
+
+            </slot_0>
+            <slot_1>
+                <target>me</target>
+                <type>ja</type>
+                <action>Defender</action>
+                <alias>Defender</alias>
+
+            </slot_1>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Berserk</action>
+                <alias>Berserk</alias>
+
+            </slot_9>
+            <slot_3>
+                <target>me</target>
+                <type>ma</type>
+                <action>Reprisal</action>
+                <alias>Reprisal</alias>
+
+            </slot_3>
+
+        </hotbar_2>
+        <hotbar_1>
+            <slot_1>
+                <target>t</target>
+                <type>ma</type>
+                <action>Banish II</action>
+                <alias>Banish II</alias>
+
+            </slot_1>
+            <slot_2>
+                <target>t</target>
+                <type>ma</type>
+                <action>Holy</action>
+                <alias>Holy</alias>
+
+            </slot_2>
+            <slot_9>
+                <target>me</target>
+                <type>ja</type>
+                <action>Sentinel</action>
+                <alias>Sentinel</alias>
+
+            </slot_9>
+            <slot_5>
+                <target>t</target>
+                <type>ja</type>
+                <action>Shield Bash</action>
+                <alias>Sh. Bash</alias>
+
+            </slot_5>
+            <slot_3>
+                <target>t</target>
+                <type>ma</type>
+                <action>Flash</action>
+                <alias>Flash</alias>
+
+            </slot_3>
+            <slot_4>
+                <target>t</target>
+                <type>ja</type>
+                <action>Provoke</action>
+                <alias>Provoke</alias>
+
+            </slot_4>
+            <slot_0>
+                <target>stpc</target>
+                <type>ja</type>
+                <action>Cover</action>
+                <alias>Cover</alias>
+
+            </slot_0>
+
+        </hotbar_1>
+
+    </battle>
+
+</hotbar>

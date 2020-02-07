@@ -56,9 +56,15 @@ keyboard.comma = 51
 keyboard.period = 52
 keyboard.alt = 56
 
+keyboard.scroll_lock = 70
+
 keyboard.up = 200
 keyboard.down = 208
 keyboard.left = 203
 keyboard.right = 205
+
+-- START CJM
+keyboard.offset = 1
+-- END CJM
 
 return keyboard

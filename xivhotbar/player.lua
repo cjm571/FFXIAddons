@@ -215,9 +215,13 @@ end
 
 -- execute action from given slot
 function player:execute_action(slot)
+    if slot == 10 then slot = 0 end
+
     local action = self.hotbar[self.hotbar_settings.active_environment]['hotbar_' .. self.hotbar_settings.active_hotbar]['slot_' .. slot]
 
-    if action == nil then return end
+    if action == nil then
+        return
+    end
 
     if action.type == 'ct' then
         local command = '/' .. action.action
